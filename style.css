@@ -2,7 +2,7 @@
 /* style.css */
 :root {
   --bg: #F7E9DE;               /* White Clay */
-  --nav-bg: #87A680;           /* Thyme */
+  --nav-bg: #AC5B67;           /* Thyme */
   --text: #4F364B;             /* Eggplant */
   --accent: #DB3E1C;           /* Poppy */
   --hover-bg: rgba(202, 186, 216, 0.3); /* Lavender hover */
@@ -783,7 +783,6 @@ align-items: center;
 }
 
 
-
 /* About Page Layout */
 .about-container {
   display: flex;
@@ -814,6 +813,41 @@ align-items: center;
   border-radius: 50%;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
+.website-embed {
+  width: 100%;
+  max-width: 900px;
+  height: 500px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+}
+.web-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.custom-video-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 2rem auto;
+  position: relative;
+  aspect-ratio: 16 / 9;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.custom-video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+
 
 
 @keyframes spin {
