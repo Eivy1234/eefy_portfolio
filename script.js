@@ -55,7 +55,7 @@ const pauseButton = document.querySelector(".pause-btn-modern");
 const albumArt = document.querySelector(".album-art-modern");
 const albumCards = document.querySelectorAll(".album-card");
 
-let audio = new Audio("sound/missyou.mp3"); // Make sure this matches your <audio> tag path
+let audio = new Audio("sound/C418-cat.mp3"); // Make sure this matches your <audio> tag path
 let isDancing = false;
 let spinTimeout;
 
