@@ -1,0 +1,106 @@
+""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You | Sophia's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .reflection-content {
+      max-width: 800px;
+      margin: 4rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      backdrop-filter: blur(2px);
+    }
+
+    .reflection-content h1 {
+      font-size: 2.25rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      color: var(--accent);
+    }
+
+    .reflection-content p {
+      line-height: 1.8;
+      font-size: 1.05rem;
+      margin-bottom: 1.5rem;
+      color: var(--text);
+    }
+
+    .reflection-content strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .reflection-content em {
+      font-style: italic;
+    }
+
+    @media (max-width: 768px) {
+      .reflection-content {
+        padding: 1.25rem;
+      }
+
+      .reflection-content h1 {
+        font-size: 1.75rem;
+      }
+
+      .reflection-content p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div id="sidebar-placeholder"></div>
+
+  <main class="content">
+    <section class="reflection-content">
+      <h1>Thank Yous</h1>
+      <p>This is all made possible because of you and it is all for you ☀️🤍💐</p>
+
+      <p>A whole-page dedicated to all my loved-ones because I would not be who I am without all their unconditional love and support ♾️💓</p>
+
+      <p><strong>To my mama y papa</strong>, a thank you will never be enough. But, thank you for believing in my ability to not only succeed in school but for trusting me to grow into my own person. For always reassuring me that things will be okay and for always wishing I was home with you guys :’)<br>
+      Siempre estoy agradecido a mis papas, todo lo que me dieron y si tengo todo, todo lo comparto. Sólo espera a que regrese a casa y entonces no me extrañarás tanto jajaja 🇲🇽🇸🇻</p>
+
+      <p><strong>To my sister, Kailei</strong> 😚 thank you for always filling me in on the family chisme and playing gamepigeon games with me, those are my favorite texts to receive 😜 <strong>To my brother, Julian</strong>, thank you for joining me to the most epic concerts (except I’m the one paying for that so actually you should be thanking me 🤨) and for supplying me with free redbull cans 🔋</p>
+
+      <p><strong>To Mimi & Myra</strong>, my first roommates! 🏡 Thank you for making chocolate chip cookies every night, for the rides home, and for being there as I adjusted to the city life. #B205</p>
+
+      <p><strong>To my abuelos, tias y tios, and cousins</strong>, thank you all for your encouragement 🎉 Thank you for always reminding me of the importance of education and that I’m doing a good job 👍<br>
+      Gracias a mis abuelas por animarme a probar cosas nuevas. Un agradecimiento muy especial a mi abuelo, Santos, que no está aquí con nosotros para celebrar, pero sé que nos ha estado siempre cuidando.</p>
+
+      <p><strong>To my best friend, Jalynn</strong> 🐞 Thank you for keeping me grounded and for making me laugh allll the time (we are so funny!). There is no one else in the world I’d want by my side 💫</p>
+
+      <p><strong>To Ariana, Andrea, Hayley, Damaris, Myra, Ian, & Shane</strong>, thankful for each and every one of you. &lt;3</p>
+
+      <p><strong>To my GAO sisters</strong>, thank you all for being genuine, kind, and supportive friends 🐅 <strong>To my LSs</strong>, thank you for growing my confidence & for all sticking through the thick-n-thin (#sweetest16)🫧 <strong>And to my littles</strong>, thank you for making me feel like I have little sisters, I will always be rooting for you! 👯 Forever grateful that I took a chance on this sorority and all the memories I created with every single one of you 🩵💎</p>
+
+      <p><strong>To my friends at the ECC</strong>, thank you for making the space what it is and for being wonderful people. Thank you all for always being excited for me and for all the good laughs. I will miss the late night shifts (not really), but mostly seeing you guys everyday. 🥰🤟</p>
+
+      <p><strong>And last but absolutely not the least</strong>, the biggest thank you to my partner, Eivy. 😽 Thank you for being my best friend, for being my greatest support system, for letting me yap to you about every single detail of my day. 🌅 Thank you for all the car rides, all the late night study sessions, and for just being there through all the changes these last four years have brought to me and us.</p>
+
+      <p>This portfolio would not be possible without Eivy’s intelligence and willingness to create this website. Everyone say thank you to him! So talented! So thankful! He brought my vision to life!</p>
+
+      <p>To all the people who I have crossed paths with, thank you. To professors, mentors, supervisors, classmates and all the like, thank you for all the small or grand moments. 💌 And thank you to for taking the time to read this! Even if you didn’t, thanks for clicking on my portfolio 🙈</p>
+
+      <p><em>p.s., if you saw me tearing up at odegaard library on June 8th, 2025…no you didn’t.</em></p>
+    </section>
+  </main>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      fetch("sidebar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("sidebar-placeholder").innerHTML = data;
+        });
+    });
+  </script>
+</body>
+</html>

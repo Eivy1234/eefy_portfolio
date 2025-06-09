@@ -782,6 +782,40 @@ align-items: center;
   text-decoration: underline;
 }
 
+
+
+/* About Page Layout */
+.about-container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.about-content {
+  max-width: 750px;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
+.about-content h1 {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+.about-image-placeholder {
+  margin: 2rem 0;
+}
+
+.about-image-placeholder img {
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
 @keyframes spin {
   0%   { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
